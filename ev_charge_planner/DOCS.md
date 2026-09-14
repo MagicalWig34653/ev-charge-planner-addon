@@ -52,13 +52,16 @@ Mosquitto-Add-on läuft (Host dann `core-mosquitto`); die Zugangsdaten werden ni
 automatisch übernommen. `mqtt_base_topic` (Vorgabe `evplanner`) bestimmt die Topics
 `<topic>/status` und `<topic>/cmd/#`; `ha_discovery_prefix` (Vorgabe `homeassistant`) muss
 zur MQTT-Integration von Home Assistant passen. Für TLS `mqtt_tls` einschalten und bei einer
-eigenen Zertifizierungsstelle `mqtt_ca_cert` auf eine Datei zeigen lassen, die im Container
-erreichbar ist.
+eigenen Zertifizierungsstelle `mqtt_ca_cert` z. B. auf `/ssl/ca.pem` setzen. Legen Sie eigene
+Zertifikate in den Home-Assistant-Ordner `ssl`, z. B. über das Samba- oder File-Editor-Add-on.
+Im Add-on sind diese Dateien unter `/ssl/...` nur lesend erreichbar.
 
 ### Wenn ein Feld fehlt: `env`
 
-Für alles ohne eigenes Feld nimmt `env` den Inhalt einer `.env` auf, eine Zuweisung je
-Zeile; Zeilen mit `#` werden übersprungen:
+Für alles ohne eigenes Feld nimmt `env` den Inhalt einer `.env` auf. Je Zuweisungszeile
+ist genau `NAME=WERT` erlaubt, ohne vorangestelltes `export`; ein `#` mitten in der Zeile
+ist Teil des Werts, kein Kommentar. Neben Leerzeilen werden nur Zeilen übersprungen,
+die nach dem Entfernen umgebender Leerzeichen mit `#` beginnen:
 
 ```
 MQTT_TLS_INSECURE=1

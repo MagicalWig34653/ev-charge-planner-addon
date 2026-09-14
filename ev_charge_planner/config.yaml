@@ -37,6 +37,11 @@ ports_description:
 startup: application
 boot: auto
 
+# Zertifikate für MQTT-TLS aus dem Home-Assistant-Ordner ssl -- nur lesend.
+map:
+  - type: ssl
+    read_only: true
+
 # Optionen bewusst flach: der Supervisor prüft die abgeschickte Konfiguration gegen das
 # Schema, und eine leer gelassene verschachtelte Gruppe fehlt darin ("Missing option").
 # Abgebildet in docker/addon_options.py im Anwendungsprojekt -- Namen hier und dort gleich.

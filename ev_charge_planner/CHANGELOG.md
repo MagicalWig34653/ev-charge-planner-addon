@@ -4,6 +4,7 @@
 
 ## 0.2.0
 
+- Zugriff auf den Ordner `ssl` (nur lesend) für MQTT-Zertifikate.
 - Erste Fassung des Add-ons: Abbild `ev-charge-planner:0.2.0`, Architekturen
   `amd64`/`aarch64`, Ingress über die Seitenleiste, zusätzlicher Port 5000 ohne Anmeldung.
 - Optionen für Trockenlauf, Datenbank (SQLite unter `/data` oder MariaDB), MQTT inklusive
