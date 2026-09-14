@@ -23,8 +23,8 @@ ingress: true
 # Der Port, auf dem gunicorn im Container lauscht. NICHT 0: das hieße "der Supervisor wählt
 # einen Port", und niemand horchte dort.
 ingress_port: 5000
-panel_icon: mdi:ev-station
-panel_title: "Laden"
+panel_icon: mdi:ev-plug-type2
+panel_title: "Ladeplanung"
 panel_admin: false
 
 # Direkter Zugang, etwa für ein iframe-Widget oder einen Reverse Proxy. EV Charge Planner hat
