@@ -2,6 +2,12 @@
 
 Änderungen an der Add-on-Verpackung selbst. Für die Anwendung siehe das Anwendungsprojekt.
 
+## 0.2.1
+
+- Abbild `ev-charge-planner:0.2.1`.
+- Neues Symbol und Logo (finale Bildmarke: neues Blau und Grün, überarbeitete Balken und Blitz).
+- Seitenleiste: Symbol `mdi:ev-plug-type2`, Titel „Ladeplanung“, `panel_admin: false`.
+
 ## 0.2.0
 
 - Zugriff auf den Ordner `ssl` (nur lesend) für MQTT-Zertifikate.
