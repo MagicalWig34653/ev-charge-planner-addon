@@ -25,6 +25,7 @@ ingress: true
 ingress_port: 5000
 panel_icon: mdi:ev-station
 panel_title: "Laden"
+panel_admin: false
 
 # Direkter Zugang, etwa für ein iframe-Widget oder einen Reverse Proxy. EV Charge Planner hat
 # KEINE eigene Anmeldung: wer diesen Port erreicht, kann alles einstellen und die Wallbox
