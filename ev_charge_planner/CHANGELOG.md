@@ -2,6 +2,12 @@
 
 Änderungen an der Add-on-Verpackung selbst. Für die Anwendung siehe das Anwendungsprojekt.
 
+## 0.2.2
+
+- Abbild `ev-charge-planner:0.2.2`.
+- Übersicht zeigt manuell gesetzte und geblockte Slots an; Kostenschätzung bei manuellen Slots korrigiert.
+- An der Verpackung selbst hat sich nichts geändert.
+
 ## 0.2.1
 
 - Abbild `ev-charge-planner:0.2.1`.
