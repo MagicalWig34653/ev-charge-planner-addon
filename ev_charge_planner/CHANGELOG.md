@@ -2,6 +2,12 @@
 
 Änderungen an der Add-on-Verpackung selbst. Für die Anwendung siehe das Anwendungsprojekt.
 
+## 0.2.3
+
+- Abbild `ev-charge-planner:0.2.3`.
+- Plan-Tab: Modus und Semi-Preisschwelle werden sofort gespeichert, der „Speichern“-Button entfällt.
+- An der Verpackung selbst hat sich nichts geändert.
+
 ## 0.2.2
 
 - Abbild `ev-charge-planner:0.2.2`.
