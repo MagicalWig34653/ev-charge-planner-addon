@@ -2,6 +2,12 @@
 
 Änderungen an der Add-on-Verpackung selbst. Für die Anwendung siehe das Anwendungsprojekt.
 
+## 0.3.0
+
+- Abbild `ev-charge-planner:0.3.0`.
+- Plan-Tab: Modus, SoC, Preis-Timeline und Preisschwelle in einer Kachel; der Schwellenregler sitzt unter dem Diagramm.
+- An der Verpackung selbst hat sich nichts geändert.
+
 ## 0.2.3
 
 - Abbild `ev-charge-planner:0.2.3`.
