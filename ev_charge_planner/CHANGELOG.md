@@ -2,6 +2,13 @@
 
 Änderungen an der Add-on-Verpackung selbst. Für die Anwendung siehe das Anwendungsprojekt.
 
+## 0.4.0
+
+- Abbild `ev-charge-planner:0.4.0`.
+- Darkmode: die Oberfläche folgt der hell/dunkel-Einstellung des Geräts, auch im Home-Assistant-Panel.
+- Nach einem Update lädt der Browser das neue Stylesheet zuverlässig (kein hartes Neuladen mehr nötig).
+- An der Verpackung selbst hat sich nichts geändert.
+
 ## 0.3.0
 
 - Abbild `ev-charge-planner:0.3.0`.
