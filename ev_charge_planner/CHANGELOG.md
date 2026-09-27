@@ -2,6 +2,12 @@
 
 Änderungen an der Add-on-Verpackung selbst. Für die Anwendung siehe das Anwendungsprojekt.
 
+## 0.4.1
+
+- Abbild `ev-charge-planner:0.4.1`.
+- Neues App-Icon im Liquid-Glass-Look (Favicons, Apple-Touch- und Android-Icons).
+- Add-on-Symbol `icon.png` ebenfalls im Liquid-Glass-Look; `logo.png` unverändert.
+
 ## 0.4.0
 
 - Abbild `ev-charge-planner:0.4.0`.
